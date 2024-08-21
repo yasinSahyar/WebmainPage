@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic UI Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .about-us {
+            float:center
+            
+            width: 85%;
+            
+            padding: 50px;
+            background-color: #fff;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 18px;
+        }
+
+        .positioned-image {
+            position: absolute;
+            top: 10%;
+            left: 43%;
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(78, 127, 162, 0.2);
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+        }
+
+        #about {
+            margin-top: 30px;
+            color: rgb(234, 189, 10);
+            line-height: 1.6;
+        }
+        #resturant {
+            color: coral;
+            font-size: 30px;
+        }
+        #asia {
+            color: rgb(36, 18, 229);
+            font-size: 25px;
+        }
+        #life {
+            color: rgb(18, 202, 85);
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-us">
+        <p>the <span id="life">Uyghur Restaurant</span></p>
+        <img src="ganbian.jpg" alt="Positioned Image" class="positioned-image">
+        <h2>More About Us</h2>
+        <p id="about">
+            The Uyghur way of life is now at a crossroads. One path leads to cultural preservation and dignity for the Uyghur people. The other path is less than certain. At <span id="resturant"> Uyghur Restaurant</span>, we are committed to preserving what we can – the food and flavor of Uyghur culture. <span id="asia">central Asian style.</span> From Hot chicken stew to Laghman , handmade noodles to handmade dumplings, every dish is prepared by our chef who thoroughly understands that delicious food is at <span id="life">the heart of traditional Uyghur life.</span>
+        </p>
+    </section>
+
+    
+
+    <footer>
+        <p>Copyright © 2024  Uyghur Restaurant.</p>
+    </footer>
+</body>
+</html>
