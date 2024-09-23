@@ -250,14 +250,44 @@ footer {
   padding: 20px;
   background-color: #f56767;
 }
+
+
+/* Features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+
 .footer-gap {
     background-color: #e327d1;
     height: 50px;
 
 }
 .footer-copyright {
-    background-color: #3f9c649c;
-    color: #45d9b4;
+    background-color: #a9f6c89c;
+    color: #eb9f06;
     padding: 20px;
     text-align: center;
     font-size: 14px;
