@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolan Pizza</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/77b447a4d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="menu-box">
+        <h1 class="shop-name">Dolan Pizza</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button id="show-dialog"><i class="fa-solid fa-right-to-bracket"></i></button>
+        </div>
+    </div>
+    <section id="hero-image"></section>
+</header>
+
+<main>
+    <dialog id="register-dialog">
+        <div class="form-container"></div>    
+        <form method="dialog">
+            <fieldset>
+                <legend>Register</legend>
+                <img src="image/login.png" alt="form-image">
+
+                <label for="username">Enter Username:</label>
+                <input type="text" name="username" id="username" placeholder="Your name" minlength="3" maxlength="15" title="Username: 3-15 characters" required>
+
+                <label for="email">Enter Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@domain.com" required>
+
+                <label for="password">Enter Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <input type="submit" value="Submit">
+                <button type="button" id="close-dialog">Close</button>
+            </fieldset>
+        </form>
+    </dialog>
+
+    <div class="soon">
+        <h2>Soon you will hear from us!</h2>
+    </div>
+</main>
+
+<!--grid menu-->
+<section id="list">
+    <div class="grid-container">
+    <div class="pizza-choice">
+    <h2>Chicago Deep-Dish</h2>
+    <p>Italian air-dried beef ham, ta bit like Prosciutto Crudo only made with beef.
+     </p>
+    <p class="price">€10.50</p>
+    </div>
+    <div class="pizza-choice">
+    <h2>Neapolitan</h2>
+    <p>Dessert pizza, aka sweet pizza, is topped with chocolate, Nutella, caramel, cream, 
+        peanut butter, nuts, fruit, and whatever sweet goodness comes to mind.</p>
+    <p class="price">€11.30</p>
+    </div>
+    <div class="pizza-choice">
+    <h2>Margherita</h2>
+    <p> It’s no wonder since it contains bacon, sausages, eggs, cheese, and even potatoes.</p>
+    <p class="price">€11.60</p>
+    </div>
+    <div class="pizza-choice">
+    <h2>SALAMI FRESCO</h2>
+    <p>
+    Tomato sauce, mozzarella, salami, caramelized
+    jalapenos, arugula and citrus vinaigrette
+    </p>
+    <p class="price">€13.40</p>
+    </div>
+    <div class="pizza-choice">
+    <h2>The Mexican Pizza</h2>
+    <p>
+    Light sauce, marinated mushrooms, caramelized
+    onions and arugula
+    </p>
+    <p class="price">€11.50</p>
+    </div>
+    <div class="pizza-choice">
+    <h2>Calzone</h2>
+    <p>
+    Light sauce, mozzarella, cherry tomatoes, roasted
+    zucchini, capers and garlic
+    </p>
+    <p class="price">€12.70</p>
+    </div>
+    </div>
+    </section>
+
+
+<footer>
+    <div class="footer-content">
+        <div class="text-content">
+            <h2>Dolan Pizza</h2>
+            <h3>More About Us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores odio at labore? At, quos sapiente corrupti ducimus harum sit nobis voluptatum illum porro fuga. Sequi magni sunt doloribus suscipit debitis.</p>
+            <p>Nihil odit minus quam aperiam cupiditate quos facilis ea laboriosam voluptas, quidem quia inventore blanditiis tempora ab quis tempore, sunt deleniti esse obcaecati suscipit molestiae nostrum. Eos fuga aliquid tempora!</p>
+        </div>
+        <img src="image/pizza6.jpg" alt="pizza sample">
+        <div class="image-wrapper">
+            <img src="image/chill.png" alt="chili" class="floating-img">
+        </div>    
+    </div>
+
+
+
+    <div class="footer-gap"></div>
+
+
+    
+</footer>
+
+
+    <!-- New Section element -->
+    <section class="features">
+        <div class="feature-item">
+        <h2>Quality Food</h2>
+        <p>We offer food made from the best ingredients.</p>
+        </div>
+        <div class="feature-item">
+        <h2>Excellent Service</h2>
+        <p>Our staff ensures a pleasant experience.</p>
+        </div>
+        <div class="feature-item">
+        <h2>Great Setting</h2>
+        <p>Our restaurant offers a cozy environment.</p>
+        </div>
+        </section>
+
+        <div class="footer-copyright">
+            <p>© Copyright-yasin</p>
+        </div>
+        
+</body>
+</html>
